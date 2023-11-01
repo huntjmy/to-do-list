@@ -4,13 +4,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
 .container {
     width: 100%;
     min-height: 100vh;
-    font-family: 'Nanum Gothic', sans-serif;
     padding: 10px;
+    background-color: #131313;
 }
 
 .todo-app {
@@ -20,8 +21,6 @@
     margin: 100px auto 20px;
     padding: 40px 30px 70px;
     border-radius: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 .todo-app h2 {
